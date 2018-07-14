@@ -215,6 +215,11 @@ a {
   height: 12px;
   display: inline-block; }
 
+.fa-video-c {
+  background-position: -83px -161px;
+  width: 40px;
+  height: 40px; }
+
 .btn-face {
   background-position: -13px -59px;
   width: 8px;
@@ -468,18 +473,37 @@ img {
             width: 100%;
             display: inline-block; }
             .all .all-content .bot-content .b-container .box-3 ul li {
-              display: inline-block; }
+              display: inline-block;
+              width: 221px;
+              margin-right: 19px; }
               .all .all-content .bot-content .b-container .box-3 ul li a {
                 display: inline-block; }
                 .all .all-content .bot-content .b-container .box-3 ul li a .img {
                   background: url("../images/stream.png");
                   width: 220px;
                   height: 126px;
-                  background-size: 100%; }
-                  .all .all-content .bot-content .b-container .box-3 ul li a .img .fa-video-b {
-                    width: 43px;
-                    height: 43px;
-                    background-size: 100%; }
+                  background-size: 100%;
+                  position: relative; }
+                  .all .all-content .bot-content .b-container .box-3 ul li a .img .fa-video-c {
+                    position: absolute;
+                    top: 40%;
+                    left: 40%; }
+                .all .all-content .bot-content .b-container .box-3 ul li a .text .title {
+                  margin-top: 12px;
+                  font-size: 15px;
+                  font-family: "Roboto";
+                  color: #2d2828;
+                  font-weight: bold;
+                  line-height: 1.333; }
+                .all .all-content .bot-content .b-container .box-3 ul li a .text .tag {
+                  margin-top: 8px;
+                  font-size: 12px;
+                  line-height: 18px;
+                  color: #bbbebf; }
+                  .all .all-content .bot-content .b-container .box-3 ul li a .text .tag strong {
+                    color: #777777; }
+            .all .all-content .bot-content .b-container .box-3 ul li:nth-child(3n) {
+              margin-right: 0px; }
 
 .no-border {
   border: none !important; }
@@ -492,5 +516,8 @@ img {
   width: 54px;
   height: 58px;
   display: inline-block; }
+
+.mg-b-80 {
+  margin-bottom: 120px; }
 
 /*# sourceMappingURL=detail-video.css.map */
